@@ -1,0 +1,499 @@
+@media all and (max-width: 1050px) {
+    .titul__content {
+        top: 150px;
+        left: 200px;
+        padding: 0 20px;
+    }
+    .titul__title h2 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .titul__title p {
+        font-size: 15px;
+    }
+    .aro__title {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .review__container {
+        padding: 0 20px;
+    }
+    .brends__images_lot1 img,
+    .brends__images_lot2 img {
+        padding: 0 0 32px 0;
+    }
+    .wish__items {
+        padding: 0 20px;
+    }
+    .wish__item {
+        padding: 0 10px;
+    }
+    .why__item_title,
+    .why__item_text {
+        padding: 0 20px;
+    }
+    .why__items { 
+        flex-direction: column;
+    }
+    .why__item { 
+        max-width: 300px;
+        width: 100%;
+    }
+    .why__item img { 
+        width: 100%;
+    }
+    .why__items-del {
+        justify-content: space-around;
+    }
+    .why__items-del:nth-child(1) {
+        margin: 0 0 80px 0;
+    }
+    .life__container {
+        padding: 0;
+    }
+    .life__items {
+        flex-direction: column-reverse;
+    }
+    .life__item1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .life__item1 img {
+        width: 48.5%;
+        height: 100%;
+    }
+    .life__item2 {
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    .footer__container {
+        justify-content: space-around;
+    }
+    .footer__left,
+    .footer__center {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .titul__content {
+        top: 200px;
+        left: 150px;
+        font-size: 14px;
+    }
+    .titul__title h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .titul__title p {
+        font-size: 14px;
+    }
+    .aro__title {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .initiated__container,
+    .hand__container {
+        padding: 50px 20px;
+    }
+    .initiated__text,
+    .hand__text {
+        font-size: 72px;
+    }
+    .menu-bottom__container {
+        padding: 125px 20px;
+    }
+    .menu-bottom__items {
+        flex-direction: column;
+    }
+    .menu-bottom_item-dev:nth-child(1) {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__btn a {
+        padding: 10px 20px 8px;
+    }
+    .titul__content {
+        top: 90px;
+        left: 120px;
+    }
+    .titul__title h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .titul__title p {
+        margin-bottom: 60px;
+    }
+    .aro {
+        margin: 0 0 150px 0;
+    }
+    .aro__title {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .aro__text {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+    .aro__item-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aro__item-2 img {
+        width: 100%;
+    }
+    .review {
+        margin: 0 0 80px 0;
+    }
+    .review__item {
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 0 0 50px 0;
+    }
+    .review__line {
+        width: 100%;
+    }
+    .review__image {
+        padding: 10px 0 20px 0;
+    }
+    .review__image svg {
+        width: 100%;
+        height: 100%;
+    }
+    .review__info,
+    .review__info_reverse {
+        padding: 0;
+    }
+    .see__container {
+        margin-bottom: 150px;
+    }
+    .setting {
+        margin-bottom: 150px;
+    }
+    .wish__container {
+        padding: 45px 0 0 0;
+    }
+    .wish__items {
+        flex-direction: column;
+    }
+    .wish__item {
+        margin: 0 0 80px 0;
+    }
+    .wish__text {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+    .wish__subtext {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .initiated__text,
+    .hand__text {
+        font-size: 68px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__left {
+        max-width: 300px;
+    }
+    .footer__container {
+        margin: 0 20px;
+    }
+    .aro__content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    body.lock {
+        overflow: hidden;
+    }
+    .header__body { 
+        height: 60px;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+    }  
+    .header__burger { 
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;    
+    }   
+    .header__burger span { 
+        background-color: #000;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger:before, 
+    .header__burger:after {
+        content: '';
+        background-color: #000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger:before {
+        top: 0;
+    } 
+    .header__burger:after {
+        bottom: 0;
+    }
+
+    .header__burger.active span {
+        transform:scale(0);
+    }
+    .header__burger.active:before {
+        transform:rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.active:after {
+        transform:rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__menu { 
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.5s ease 0s;
+        background-color:rgb(255, 68, 0);
+        padding: 60px 50px 20px;
+        z-index: 2;
+    }
+    .header__menu.active { 
+        top: 0;
+    }
+    .header__menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__menu li {
+        width: 100%;
+        border: 1px solid rgb(236, 63, 0);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header__menu a {
+        padding: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .titul__btn {
+        margin: 0;
+    }
+    .aro__item-1 {
+        padding: 0 50px;
+    }
+    .aro__btn {
+        display: flex;
+        justify-content: center;
+    }
+    .aro {
+        margin: 0 0 100px 0;
+    }
+    .aro__title {
+        margin: 0 0 32px 0;
+    }
+    .titul__container {
+        margin-bottom: 50px;
+    }
+    .review__info {
+        padding: 0;
+    }
+    .review__title {
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        margin: 0 0 25px 0;
+    }
+    .review__title br {
+        display: none;
+    }
+    .review__percent {
+        font-size: 40px;
+    }
+    .review__text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .review__container {
+        padding: 0 10px;
+    }
+    .brends__container {
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+    .brends__title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 40px;
+    }
+    .see__container {
+        margin-bottom: 100px;
+    }
+    .setting {
+        margin-bottom: 130px;
+    }
+    .wish__items {
+        padding: 0 10px;
+    }
+    .why {
+        margin: 0;
+    }
+    .why__heder_title {
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 25px;
+    }
+    .why__heder_text {
+        font-size: 14px;
+        line-height: 31px;
+        margin-bottom: 50px;
+    }
+    .why__item_title,
+    .why__item_text {
+        padding: 0 10px;
+    }
+    .why__items-del {
+        flex-direction: column;
+        align-items: center;
+    }
+    .why__item {
+        max-width: 100%;
+        margin: 0 0 80px 0;
+    }
+    .why__item_image img {
+        width: 100%;
+    }
+    .why__items-del:nth-child(1) {
+        margin: 0;
+    }
+    .initiated__container,
+    .hand__container {
+        padding: 50px 10px;
+    }
+    .initiated__text,
+    .hand__text {
+        font-size: 54px;
+    }
+    .life__item1 {
+        flex-direction: column;
+    }
+    .life__item1 img {
+        width: 100%;
+    }
+    .life__item1 img:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    .bottom_item-del {
+        display: none;
+    }
+    .menu-bottom__container {
+        padding: 100px 10px;
+    }
+    .footer__container {
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .titul__container {
+        margin-bottom: 30px;
+    }
+    .titul__content {
+        top: 70px;
+        left: 80px;
+        padding: 0px 10px;
+    }
+    .titul__title p {
+        line-height: 100%;
+        margin-bottom: 20px;
+    }
+    .titul__btn a {
+        font-size:  14px;
+    }
+    .see__container {
+        margin-bottom: 80px;
+    }
+    .setting {
+        margin-bottom: 50px;
+    }
+    .why__item {
+        text-align: center;
+    }
+    .initiated__text,
+    .hand__text {
+        font-size: 38px;
+    }
+    .menu-bottom__search form {
+        width: 290px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .titul__content {
+        top: 70px;
+        left: 50px;
+    }
+    .titul__title h2 {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .aro__btn {
+        flex-direction: column;
+        display: inline-block;
+    }
+    .aro {
+        margin: 0 0 50px 0;
+    }
+    .aro__item-1 {
+        padding: 0 20px;
+    }
+    .see__container {
+        margin-bottom: 50px;
+    }
+    .why__heder_title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .menu-bottom_item-dev:nth-child(1) {
+        justify-content: space-between;
+    }
+    .item_header {
+        font-size: 18px;
+    }
+    .footer__center li {
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .titul__title h2 {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .titul__title p {
+        margin-bottom: 10px;
+    }
+}
