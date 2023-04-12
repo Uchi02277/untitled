@@ -1,4 +1,4 @@
-@media all and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
     .titul__content {
         top: 150px;
         left: 200px;
@@ -74,7 +74,6 @@
         margin: 0 0 30px 0;
     }
 }
-
 @media screen and (max-width: 900px) {
     .titul__content {
         top: 200px;
@@ -110,7 +109,6 @@
         margin: 0 0 30px 0;
     }
 }
-
 @media screen and (max-width: 767px) {
     .header__btn a {
         padding: 10px 20px 8px;
@@ -137,6 +135,9 @@
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 25px;
+    }
+    .aro__item-1 {
+        padding: 0 50px;
     }
     .aro__item-2 {
         display: flex;
@@ -210,8 +211,7 @@
         text-align: center;
     }
 }
-
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     body.lock {
         overflow: hidden;
     }
@@ -302,7 +302,7 @@
         margin: 0;
     }
     .aro__item-1 {
-        padding: 0 50px;
+        padding: 0 30px;
     }
     .aro__btn {
         display: flex;
@@ -385,6 +385,7 @@
     }
     .why__item_image img {
         width: 100%;
+        height: 100%;
     }
     .why__items-del:nth-child(1) {
         margin: 0;
@@ -486,7 +487,6 @@
         margin: 0 5px;
     }
 }
-
 @media screen and (max-width: 320px) {
     .titul__title h2 {
         font-size: 20px;
